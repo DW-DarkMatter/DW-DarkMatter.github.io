@@ -41,7 +41,7 @@
     }
     .navbar_top_list .navbar_top_list_name {
         color: rgb(255, 191, 0);
-        display: none;
+    /*    display: none;    */
     }
 
 
@@ -68,9 +68,10 @@
         height: 150px;
         border-radius: 50%;
         border: 30px solid white;
-        transition: all 120s;
+    /*    transition: all 120s;     */
     }
     header .profile_picture:hover {
+        transition: all 120s;
         transform: scale(1.2) skewX(-30deg);    /*-10 deg, 120sec transit for really trippy imperceptible slowness XD*/
     }
     
@@ -80,3 +81,18 @@
         border: solid black 3px; border-radius: 5px;
         margin: 10px; padding: 10px;
     }
+
+    .Section_1 {
+        background: white;
+
+    }
+    .Section_2 {
+        background: white;
+    }
+
+    footer {
+        background: black;
+        width: 100%;
+        min-height: 30px;
+        padding: 20px 0 40px 20px;
+      }
