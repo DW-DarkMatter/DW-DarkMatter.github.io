@@ -46,8 +46,20 @@
 
 
     /*The heading section at the top of the page*/
+    h1 {    
+        /*Technically this is like a global thing
+        but I'm only going to use h1 in the header
+        so I thought I would do it here and just do
+        a global selector instead of a header .h1
+        selector*/
+        color: white;
+    }
     header {
-        
+        text-align: center;
+        background: url('images/stock image.jpg') no-repeat top center ;
+        background-size: cover;
+        overflow: hidden;
+        padding-top: 60px;
     }
 
     header .profile_picture {
@@ -55,11 +67,11 @@
         width: 150px;
         height: 150px;
         border-radius: 50%;
-        border: 3px solid white;
+        border: 30px solid white;
         transition: all 120s;
     }
     header .profile_picture:hover {
-        transform: scale(1.2) skewX(-10deg);
+        transform: scale(1.2) skewX(-30deg);    /*-10 deg, 120sec transit for really trippy imperceptible slowness XD*/
     }
     
     header .profile_tag {
