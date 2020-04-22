@@ -3,6 +3,7 @@
         box-sizing: border-box;
     }
 
+
     /* Global body, link, and link hover set-up */
     body {
         margin: 0;
@@ -19,6 +20,7 @@
     a:hover {
         color: #6633ff;
     }
+
 
     /*The navbar that lines the top of the page*/
     .navbar_top {
@@ -40,4 +42,29 @@
     .navbar_top_list .navbar_top_list_name {
         color: rgb(255, 191, 0);
         display: none;
+    }
+
+
+    /*The heading section at the top of the page*/
+    header {
+        
+    }
+
+    header .profile_picture {
+        margin-top: 50px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 3px solid white;
+        transition: all 120s;
+    }
+    header .profile_picture:hover {
+        transform: scale(1.2) skewX(-10deg);
+    }
+    
+    header .profile_tag {
+        background-color: #00BFFF;
+        color: white;
+        border: solid black 3px; border-radius: 5px;
+        margin: 10px; padding: 10px;
     }
