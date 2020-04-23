@@ -72,11 +72,10 @@
         transform: scale(1.2) skewX(-30deg);    /*-10 deg, 120sec transit for really trippy imperceptible slowness XD*/
     }
     header .profile_tag {
-        text-align: center;
         border: solid black 3px; border-radius: 5px;
         width: fit-content;                     /*<== this*/
-        margin: 10px auto; padding: 10px;           /*Syntax for margin/padding: top&bottom left&right;
-                                                1,3,& 4-value syntaxes also exist for differing levels of customisation*/ 
+        margin: 10px auto;                      /*Syntax for margin/padding: top&bottom left&right;*/
+        padding: 10px;                          /*1,3,& 4-value syntaxes also exist for differing levels of customisation*/ 
         color: white;
         background-color: #00BFFF;
     }
